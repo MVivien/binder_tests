@@ -1,8 +1,8 @@
 name: example-environment
 channels:
   - conda-forge
-  - conda-build
 dependencies:
+  - conda-build
   - numpy
   - psutil
   - toolz

@@ -5,12 +5,4 @@ channels:
 dependencies:
   - python=3.6
   - conda-build
-  - numpy
-  - psutil
-  - toolz
-  - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - kealib

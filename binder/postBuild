@@ -1,5 +1,6 @@
 git clone https://gitlab.eumetsat.int/open-source/data-tailor.git
 cd data-tailor
+conda install -c conda-forge kealib
 conda build --override-channels -c anaconda -c conda-forge -c local epct
 conda install --override-channels -c anaconda -c conda-forge -c local epct
 conda build --override-channels -c anaconda -c conda-forge -c local epct_plugin_gis

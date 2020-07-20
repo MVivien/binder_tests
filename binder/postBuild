@@ -1,4 +1,4 @@
-conda install -c conda-forge kealib
+conda install -c conda-forge kealib=1.4.7
 git clone https://gitlab.eumetsat.int/open-source/data-tailor.git
 cd data-tailor
 conda build --override-channels -c anaconda -c conda-forge -c local epct
